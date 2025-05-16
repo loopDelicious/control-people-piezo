@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "joyce:control-people-piezo",
+  "visibility": "public",
+  "url": "",
+  "description": "Modular generic service: people-piezo",
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "joyce:control-people-piezo:people-piezo",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-joycecontrol-people-piezopeople-piezo"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "reload.sh",
+  "first_run": "",
+  "build": {
+    "build": "rm -f module.tar.gz && tar czf module.tar.gz requirements.txt src/*.py src/models/*.py meta.json setup.sh reload.sh",
+    "setup": "./setup.sh",
+    "path": "module.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}

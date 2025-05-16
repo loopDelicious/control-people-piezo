@@ -1,0 +1,13 @@
+{
+  "module_name": "control-people-piezo",
+  "namespace": "joyce",
+  "language": "python",
+  "resource_type": "service",
+  "resource_subtype": "generic",
+  "model_name": "people-piezo",
+  "enable_cloud_build": true,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-05-15T20:40:26.285851Z",
+  "module_readme_link": "README.md"
+}

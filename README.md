@@ -4,7 +4,7 @@ Control module to trigger a piezo buzzer when a person is detected on a webcam.
 
 ## Model joyce:control-people-piezo:people-piezo
 
-Trigger a piezo buzzer when a person is detected on a webcam.
+Trigger a piezo buzzer when a person is detected on a webcam!
 
 ### Configuration
 
